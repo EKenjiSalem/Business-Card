@@ -1,0 +1,50 @@
+body {
+    margin: 20px;
+    font-family: 'Roboto', ubuntu, lato, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    box-shadow: 10px 10px; 
+    border-radius: .5rem
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    color: #F78702;
+    border-bottom: 5px solid #F78702;
+    border-top:  5px solid #F78702;
+  
+}
+
+h3 {
+    margin-top: 3rem;
+    color: #F78702;
+    animation-name: header;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes header {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color:blue;}
+  100% {color: green;}
+}
+
+
+p:hover {
+    color: 	#980000;
+}
+
+h4:hover {
+    color: #FCE883;
+}
+
+
